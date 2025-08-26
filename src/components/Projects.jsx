@@ -18,8 +18,8 @@ const Projects = () => {
                         <div className="flex items-center  justify-between ">
                             <h2 className="text-2xl font-semibold mb-3">Online Food Restaurant Platform (Feb, 2025)</h2>
                             <div className="flex items-center gap-3 text-lg">
-                                <a href="https://github.com/Nobleman78/Swaggy-Client"><FaGithub /></a>
-                                <a className="bg-orange-400 px-4 rounded-md" href="https://swaggy-ten.vercel.app/" >Live</a>
+                                <a target="_blank" href="https://github.com/Nobleman78/Swaggy-Client"><FaGithub /></a>
+                                <a target="_blank" className="bg-orange-400 px-4 rounded-md" href="https://swaggy-ten.vercel.app/" >Live</a>
                             </div>
                         </div>
                         <p className="mb-4 text-orange-300">Name : Food King</p>
@@ -53,8 +53,8 @@ const Projects = () => {
                         <div className="flex items-center  justify-between ">
                             <h2 className="text-2xl font-semibold mb-3">IT Company (August, 2025)</h2>
                             <div className="flex items-center gap-3 text-lg">
-                                <a href="https://github.com/Nobleman78/EasyTech"><FaGithub /></a>
-                                <a className="bg-orange-400 px-4 rounded-md" href="https://www.easytechitbd.com/" >Live</a>
+                                <a  target="_blank" href="https://github.com/Nobleman78/EasyTech"><FaGithub /></a>
+                                <a  target="_blank" className="bg-orange-400 px-4 rounded-md" href="https://www.easytechitbd.com/" >Live</a>
                             </div>
                         </div>
                         <p className="mb-4 text-orange-300">Name : Easytech IT</p>
@@ -85,8 +85,8 @@ const Projects = () => {
                         <div className="flex items-center  justify-between ">
                             <h2 className="text-2xl font-semibold mb-3">Import Export Company (August, 2025)</h2>
                             <div className="flex items-center gap-3 text-lg">
-                                <a href="https://github.com/Nobleman78/EasyTech"><FaGithub /></a>
-                                <a className="bg-orange-400 px-4 rounded-md" href="https://www.nexteralogistic.com/" >Live</a>
+                                <a target="_blank" href="https://github.com/Nobleman78/EasyTech"><FaGithub /></a>
+                                <a target="_blank" className="bg-orange-400 px-4 rounded-md" href="https://www.nexteralogistic.com/" >Live</a>
                             </div>
                         </div>
                         <p className="mb-4 text-orange-300">Name : Nextera Logistic</p>
