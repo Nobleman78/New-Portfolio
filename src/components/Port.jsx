@@ -1,8 +1,7 @@
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
 import portfolio from '../assets/Portfolio/Portfolio.jpg';
 import { NavLink, Outlet } from 'react-router-dom';
-
-const Portfolio = () => {
+const Port = () => {
     const activeClass = ({ isActive }) => {
         return isActive
             ? 'text-orange-300 hover:text-orange-400'
@@ -54,5 +53,5 @@ const Portfolio = () => {
         </div>
     );
 };
+export default Port;
 
-export default Portfolio;
