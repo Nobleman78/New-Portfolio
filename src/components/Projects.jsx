@@ -86,7 +86,7 @@ const Projects = () => {
                             <h2 className="text-2xl font-semibold mb-3">Import Export Company (August, 2025)</h2>
                             <div className="flex items-center gap-3 text-lg">
                                 <a href="https://github.com/Nobleman78/EasyTech"><FaGithub /></a>
-                                <a className="bg-orange-400 px-4 rounded-md" href="https://www.easytechitbd.com/" >Live</a>
+                                <a className="bg-orange-400 px-4 rounded-md" href="https://www.nexteralogistic.com/" >Live</a>
                             </div>
                         </div>
                         <p className="mb-4 text-orange-300">Name : Nextera Logistic</p>
