@@ -4,10 +4,8 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () => {
     return (
         <div>
-            <h2 className="text-3xl text-white font-semibold">Projects</h2>
+            <h2 className="text-xl lg:text-3xl text-white font-semibold">Projects</h2>
             <div className="w-10 border-t-4 mt-3 border-orange-400"></div>
-
-
 
             {/* Projects */}
             <div className="mt-8 text-white flex flex-col gap-5">
@@ -16,7 +14,7 @@ const Projects = () => {
                     <span className="h-3 w-3 mt-2 bg-cyan-500 rounded-full border border-cyan-300"></span>
                     <div className="w-full">
                         <div className="flex items-center  justify-between ">
-                            <h2 className="text-2xl font-semibold mb-3">Online Food Restaurant Platform (Feb, 2025)</h2>
+                            <h2 className="lg:text-2xl font-semibold mb-3">Online Food Restaurant Platform (Feb, 2025)</h2>
                             <div className="flex items-center gap-3 text-lg">
                                 <a target="_blank" href="https://github.com/Nobleman78/Swaggy-Client"><FaGithub /></a>
                                 <a target="_blank" className="bg-orange-400 px-4 rounded-md" href="https://foodpanda-mocha.vercel.app/" >Live</a>
@@ -51,7 +49,7 @@ const Projects = () => {
                     <span className="h-3 w-3 mt-2 bg-cyan-500 rounded-full border border-cyan-300"></span>
                     <div className="w-full">
                         <div className="flex items-center  justify-between ">
-                            <h2 className="text-2xl font-semibold mb-3">IT Company (August, 2025)</h2>
+                            <h2 className="lg:text-2xl font-semibold mb-3">IT Company (August, 2025)</h2>
                             <div className="flex items-center gap-3 text-lg">
                                 <a  target="_blank" href="https://github.com/Nobleman78/EasyTech"><FaGithub /></a>
                                 <a  target="_blank" className="bg-orange-400 px-4 rounded-md" href="https://www.easytechitbd.com/" >Live</a>
@@ -83,7 +81,7 @@ const Projects = () => {
                     <span className="h-3 w-3 mt-2 bg-cyan-500 rounded-full border border-cyan-300"></span>
                     <div className="w-full">
                         <div className="flex items-center  justify-between ">
-                            <h2 className="text-2xl font-semibold mb-3">Import Export Company (August, 2025)</h2>
+                            <h2 className="lg:text-2xl font-semibold mb-3">Import Export Company (August, 2025)</h2>
                             <div className="flex items-center gap-3 text-lg">
                                 <a target="_blank" href="https://github.com/Nobleman78/EasyTech"><FaGithub /></a>
                                 <a target="_blank" className="bg-orange-400 px-4 rounded-md" href="https://www.nexteralogistic.com/" >Live</a>
