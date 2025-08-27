@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <div>
+        <div className="mb-10">
             <h2 className="text-xl lg:text-3xl text-white font-semibold">Projects</h2>
             <div className="w-10 border-t-4 mt-3 border-orange-400"></div>
 
