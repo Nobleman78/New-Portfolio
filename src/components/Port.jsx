@@ -1,4 +1,5 @@
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 import portfolio from '../assets/Portfolio/Portfolio.jpg';
 import { NavLink, Outlet } from 'react-router-dom';
 import { useState } from 'react';
@@ -34,6 +35,9 @@ const Port = () => {
                         <a href="https://github.com/Nobleman78">
                             <FaGithub />
                         </a>
+                        <a href="https://leetcode.com/u/NQT6uQsmyJ/" target="_blank" rel="noopener noreferrer">
+                            <SiLeetcode />
+                        </a>
                     </div>
                     <div className="mt-10 w-full flex items-start flex-col ">
                         <div className="flex items-center gap-2 mb-4 justify-center lg:justify-start">
@@ -49,7 +53,7 @@ const Port = () => {
             </div>
 
             {/* Main Content */}
-            <div className="bg-[#333333] relative w-full lg:w-3/4 lg:ml-[25%] min-h-screen p-4 lg:p-10">
+            <div className="bg-[#333333] relative w-full lg:w-3/4 lg:ml-[25%] min-h-screen p-4 pb-24 lg:p-10 lg:pb-10">
                 {/* Desktop Nav */}
                 <nav className="border-b border-[#494848] py-5 bg-[#464444] text-white hidden lg:flex flex-wrap items-center justify-center gap-10 sticky top-0 z-10">
                     <NavLink className={activeClass} to="/">About</NavLink>
@@ -66,7 +70,7 @@ const Port = () => {
             </div>
 
             {/* Mobile Bottom Nav */}
-            <nav className="fixed bottom-0 left-0 w-full border-t border-[#494848] py-3 bg-[#464444] text-white flex flex-wrap gap-2 px-2 lg:hidden items-center justify-around z-50">
+            <nav className="fixed bottom-0 left-0 w-full border-t border-[#494848] py-2 bg-[#464444] text-white flex flex-wrap gap-1 px-1 lg:hidden items-center justify-around z-50 text-[11px] sm:text-sm">
                 <NavLink className={activeClass} to="/">About</NavLink>
                 <NavLink className={activeClass} to="/experience">Experience</NavLink>
                 <NavLink className={activeClass} to="/skills">Skills</NavLink>

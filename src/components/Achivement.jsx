@@ -18,15 +18,15 @@ const Achievement = () => {
             {/* Achievements List */}
             <div className="mt-8 text-white flex flex-col gap-10">
                 {achievements.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-10">
-                        <span className="w-4 h-4 border bg-orange-400 rounded-full"></span>
-                        <div className="flex flex-col gap-5">
+                    <div key={idx} className="flex items-start gap-4 sm:gap-10">
+                        <span className="w-4 h-4 shrink-0 mt-1 border bg-orange-400 rounded-full"></span>
+                        <div className="flex flex-col gap-5 w-full">
                             <h2 className="text-xl">{item.title}</h2>
                             {item.img && (
                                 <img
                                     src={item.img}
                                     loading="lazy"
-                                    className="object-cover w-96"
+                                    className="object-cover w-full max-w-sm sm:w-96 rounded-md"
                                     alt={item.title}
                                 />
                             )}

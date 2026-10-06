@@ -9,8 +9,8 @@ const Education = () => {
 
             <div className='mt-8 text-white'>
                 {/* University Life */}
-                <div className='flex items-center gap-10'>
-                    <p className='border h-3 w-3  rounded-full bg-orange-400'></p>
+                <div className='flex items-start gap-4 sm:gap-10'>
+                    <p className='border h-3 w-3 shrink-0 mt-1.5 rounded-full bg-orange-400'></p>
                     <div>
                         <h2 className='text-lg'>Green University of Bangladesh</h2>
                         <p className='text-gray-200'>BSc in Computer Science and Engineering (Sept 2019 - Jan 2024)</p>
@@ -20,8 +20,8 @@ const Education = () => {
                 </div>
 
                 {/* College Life */}
-                <div className='flex items-center gap-10 mt-10'>
-                    <p className='border h-3 w-3  rounded-full bg-orange-400'></p>
+                <div className='flex items-start gap-4 sm:gap-10 mt-10'>
+                    <p className='border h-3 w-3 shrink-0 mt-1.5 rounded-full bg-orange-400'></p>
                     <div>
                         <h2 className='text-lg'>Khagrachari Govt College</h2>
                         <p className='text-gray-200'>Higher Secondary Certificate (HSC) (Sept 2017 - April 2019)</p>
@@ -31,8 +31,8 @@ const Education = () => {
                 </div>
 
                 {/* School life */}
-                <div className='flex items-center gap-10 mt-10'>
-                    <p className='border h-3 w-3  rounded-full bg-orange-400'></p>
+                <div className='flex items-start gap-4 sm:gap-10 mt-10'>
+                    <p className='border h-3 w-3 shrink-0 mt-1.5 rounded-full bg-orange-400'></p>
                     <div>
                         <h2 className='text-lg'>Tewfa Ideal School</h2>
                         <p className='text-gray-200'> Secondary School Certificate (SSC) (Jan 2015 - Feb 2017)</p>

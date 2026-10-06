@@ -6,52 +6,48 @@ const Skills = () => {
             <div className="mt-8 text-white px-4 lg:px-10">
                 {/* Languages */}
                 <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg">
-                    <h2>Languages: </h2>
+                    <h2 className="lg:w-64 font-semibold">Languages: </h2>
                     <div className="flex flex-wrap items-center gap-4 mt-2 lg:mt-0">
-                        <p className="bg-pink-700 px-4 py-1 rounded">C</p>
-                        <p className="bg-blue-700 px-4 py-1 rounded">C++</p>
-                        <p className="bg-sky-700 px-4 py-1 rounded">Javascript</p>
+                        <p className="bg-pink-700 px-4 py-1 rounded">HTML/CSS</p>
+                        <p className="bg-sky-700 px-4 py-1 rounded">JavaScript</p>
+                        <p className="bg-blue-700 px-4 py-1 rounded">TypeScript</p>
                     </div>
                 </div>
-                <div className="border-b-2 mt-4"></div>
+                <div className="border-b-2 border-gray-700 mt-6"></div>
 
-                {/* Frontend */}
-                <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg mt-10">
-                    <h2>Frontend: </h2>
+                {/* Technologies/Frameworks */}
+                <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg mt-6">
+                    <h2 className="lg:w-64 font-semibold">Technologies/Frameworks: </h2>
                     <div className="flex flex-wrap items-center gap-4 mt-2 lg:mt-0">
                         <p className="bg-green-700 px-4 py-1 rounded">React.js</p>
-                        <p className="bg-yellow-700 px-6 py-1 rounded">Next.js</p>
-                    </div>
-                </div>
-                <div className="border-b-2 mt-4"></div>
-
-                {/* Backend */}
-                <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg mt-10">
-                    <h2>Backend: </h2>
-                    <div className="flex flex-wrap items-center gap-4 mt-2 lg:mt-0">
+                        <p className="bg-yellow-700 px-4 py-1 rounded">Next.js</p>
                         <p className="bg-orange-700 px-4 py-1 rounded">Node.js</p>
-                        <p className="bg-gray-700 px-6 py-1 rounded">Express.js</p>
+                        <p className="bg-gray-700 px-4 py-1 rounded">Express.js</p>
+                        <p className="bg-emerald-700 px-4 py-1 rounded">Git</p>
+                        <p className="bg-purple-700 px-4 py-1 rounded">GitHub</p>
                     </div>
                 </div>
-                <div className="border-b-2 mt-4"></div>
+                <div className="border-b-2 border-gray-700 mt-6"></div>
 
                 {/* Database */}
-                <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg mt-10">
-                    <h2>Database: </h2>
+                <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg mt-6">
+                    <h2 className="lg:w-64 font-semibold">Database: </h2>
                     <div className="flex flex-wrap items-center gap-4 mt-2 lg:mt-0">
                         <p className="bg-cyan-700 px-4 py-1 rounded">MongoDB</p>
-                        <p className="bg-amber-700 px-6 py-1 rounded">Mongoose</p>
+                        <p className="bg-indigo-700 px-4 py-1 rounded">PostgreSQL</p>
                     </div>
                 </div>
-                <div className="border-b-2 mt-4"></div>
+                <div className="border-b-2 border-gray-700 mt-6"></div>
 
-                {/* Tools */}
-                <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg mt-10">
-                    <h2>Tools: </h2>
+                {/* Developer Tools */}
+                <div className="flex flex-col lg:flex-row lg:items-center gap-5 text-lg mt-6">
+                    <h2 className="lg:w-64 font-semibold">Developer Tools: </h2>
                     <div className="flex flex-wrap items-center gap-4 mt-2 lg:mt-0">
-                        <p className="bg-emerald-700 px-4 py-1 rounded">Git</p>
-                        <p className="bg-fuchsia-700 px-6 py-1 rounded">Postman</p>
-                        <p className="bg-indigo-700 px-6 py-1 rounded">Vercel</p>
+                        <p className="bg-blue-600 px-4 py-1 rounded">VS Code</p>
+                        <p className="bg-indigo-600 px-4 py-1 rounded">Vercel</p>
+                        <p className="bg-fuchsia-700 px-4 py-1 rounded">Postman</p>
+                        <p className="bg-emerald-600 px-4 py-1 rounded">Supabase</p>
+                        <p className="bg-rose-700 px-4 py-1 rounded">Appwrite</p>
                     </div>
                 </div>
             </div>
